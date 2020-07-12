@@ -12,11 +12,15 @@ You must have at least a basic **MongoDB Atlas** account to be able to run the p
 Go to `server/app.js` file and copy-paste your mongodb connection string (_and access credentials_) into the function at **line 14**.
 > line 14 | mongoose.connect(_`<Paste string here>`_)
 
-Afterwards, run the following commands from the root folder to start project: 
+Afterwards, do the following to start the project: 
+1) Open a terminal and run these commands:
 ```
 cd server
 nodemon app
-cd ../client
+```
+2) Open 2nd terminal and run these commands:
+```
+cd client
 yarn start
 ```
 
